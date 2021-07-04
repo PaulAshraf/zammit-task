@@ -1,4 +1,4 @@
-# ✨ Charts App for CrowdAnalyzer ✨
+# ✨ Zammit Task ✨
 
 ## Install Packages
 
