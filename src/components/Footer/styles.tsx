@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Wrapper = styled.footer`
 	display: flex;
 	justify-content: space-between;
-
+	
 	@media (max-width: ${(props) => props.theme.breakpoint}) {
 		justify-content: center;
 	}

@@ -7,7 +7,7 @@ const Wrapper = styled.div`
 
 const Container = styled.div`
 	width: 400px;
-	height: 350px;
+	height: 300px;
 	background-color: white;
 	padding: 20px;
 	border-radius: 5px;

@@ -8,12 +8,12 @@ import graphic2 from '../../assets/images/graphic2.png'
 const Footer = () => {
 	return (
 		<Wrapper>
-			<Graphic width='250px' src={graphic1} alt='Graphic' />
+			<Graphic width='180px' src={graphic1} alt='Graphic' />
 			<LogoWrapper>
 				<HorizontalLine />
 				<img width='200px' src={zammitLogo} alt='Zammit Logo' />
 			</LogoWrapper>
-			<Graphic width='250px' src={graphic2} alt='Graphic' />
+			<Graphic width='180px' src={graphic2} alt='Graphic' />
 		</Wrapper>
 	)
 }
