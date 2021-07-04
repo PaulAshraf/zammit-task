@@ -27,6 +27,7 @@ const Wrapper = styled.div`
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	min-height: 100vh;
 	width: 100vw;
 	background-color: ${(props) => props.theme.bgColorDesktop};
 	font-family: ${(props) => props.theme.fontFamily};
