@@ -7,7 +7,8 @@ export default styled(Field)`
 	height: 25px;
 	border-radius: 5px;
 	font-family: ${(props) => props.theme.fontFamily};
-	letter-spacing: 3px;
+	letter-spacing: 5px;
+	font-size: 18px;
 
 	:focus {
 		border: solid black 1px;

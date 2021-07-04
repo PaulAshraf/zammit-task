@@ -5,7 +5,7 @@ import zammitLogo from '../../assets/images/zammitLogo.png'
 const Header = () => {
 	return (
 		<Wrapper>
-			<img width='200px' src={zammitLogo} alt='Zammit Logo' />
+			<img width='300px' src={zammitLogo} alt='Zammit Logo' />
 		</Wrapper>
 	)
 }

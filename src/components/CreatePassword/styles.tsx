@@ -6,8 +6,8 @@ const Wrapper = styled.div`
 `
 
 const Container = styled.div`
-	width: 300px;
-	height: 350px;
+	width: 400px;
+	height: 400px;
 	background-color: white;
 	padding: 20px;
 	border-radius: 5px;
@@ -22,7 +22,7 @@ const Container = styled.div`
 const Title = styled.div`
 	width: 100%;
 	text-align: center;
-	font-size: 20px;
+	font-size: 28px;
 	font-weight: 600;
 	margin-bottom: 20px;
 `
@@ -30,7 +30,11 @@ const Title = styled.div`
 const ShowPasswordWrapper = styled.div`
 	display: flex;
 	align-items: center;
-	font-size: 12px;
+	font-size: 18px;
+
+	& * {
+		margin-left: 5px;
+	}
 `
 
 export { Wrapper, Container, Title, ShowPasswordWrapper }
