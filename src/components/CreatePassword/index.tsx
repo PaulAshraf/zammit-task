@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Form, Formik, FormikErrors } from 'formik'
-import { Wrapper, Container, Title } from './styles'
+import { Wrapper, Container, Title, ShowPasswordWrapper } from './styles'
 import ValidationCheck from '../ValidationCheck'
 import Button from '../Button'
 import InputField from '../InputField'
 
 const CreatePassword = () => {
+	const [showPassword, setShowPassword] = useState(false)
+
 	const validatePassword = (value: string) => {
 		let passing = [false, false]
 		if (!value) return passing
@@ -42,7 +44,7 @@ const CreatePassword = () => {
 						<Form>
 							<InputField
 								name='password'
-								type='password'
+								type={showPassword ? 'text' : 'password'}
 								validate={validatePassword}
 							/>
 							<div>
@@ -55,6 +57,15 @@ const CreatePassword = () => {
 									isValid={!errors.password || !!errors.password[1]}
 								/>
 							</div>
+
+							<ShowPasswordWrapper>
+								<input
+									type='checkbox'
+									checked={showPassword}
+									onChange={() => setShowPassword(!showPassword)}
+								/>
+								<span>Show Password</span>
+							</ShowPasswordWrapper>
 
 							<Button
 								disabeled={!isValid(errors)}

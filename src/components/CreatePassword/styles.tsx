@@ -27,4 +27,10 @@ const Title = styled.div`
 	margin-bottom: 20px;
 `
 
-export { Wrapper, Container, Title }
+const ShowPasswordWrapper = styled.div`
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+`
+
+export { Wrapper, Container, Title, ShowPasswordWrapper }
