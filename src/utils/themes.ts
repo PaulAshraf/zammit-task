@@ -6,6 +6,6 @@ export const theme = {
 		confirmationColor: '#4AA96C',
 		accentColor: '#DDDDDD',
 		fontFamily: "'Work Sans', sans-serif",
-		breakpoint: '650px',
+		breakpoint: '900px',
 	},
 }
